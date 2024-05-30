@@ -1,0 +1,27 @@
+{
+  "qrrequest": {
+	"mathanhtoan": 22080416050401,
+    "diachi": "123 Lý Thường Kiệt, Q.10, Hồ Chí Minh",
+    "sothutu": "1230",
+    "tienchu": "Một trăm mười bảy nghìn đồng",
+    "doituong": "Tái khám",
+    "tongtien": 117000,
+    "phongkham": "Phòng khám mắt 1",
+    "mabenhnhan": "1212155/22",
+    "noidungthu": "Thu tiền khám bệnh",
+    "hotenbenhnhan": "Nguyễn Thị Thanh Nhàn",
+    "ngaythanhtoan": 20220804,
+    "maxacnhandienthoai": "0984819161"
+  },
+  "qrresponse": {
+    "requestId": "VNPT1577878788",
+    "providerId": "123",
+    "merchantId": "1001",
+    "status": {
+      "code": "0",
+      "message": "Thanh cong"
+    },
+    "qrData": "000201010212262500069704890111MERCHANTĐỐI TÁC520463005303704540720000005802VN5912ĐỐI TÁC Viet Nam6003HCM62790321Thanh toan truc tuyen051701190218173220330070600011A0819Thanh toan don hang63047B32",
+    "signature": ""
+  }
+}

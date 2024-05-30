@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{367948BC-E1C2-4CD0-BD51-42187EA66416}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PN_EMR</RootNamespace>
+    <AssemblyName>PN_EMR</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FUNA1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar">
+      <HintPath>..\..\..\LIB_COM\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2021.3.17.0, Culture=neutral, PublicKeyToken=5ceb240df42bf6e8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LIB\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars">
+      <HintPath>..\..\..\LIB\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Data.Json">
+      <HintPath>..\..\..\LIB\FastReport.Data.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor">
+      <HintPath>..\..\..\LIB\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="hdataLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\COM\hdataLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="hultiLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\COM\hultiLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="huserControl">
+      <HintPath>..\..\..\PN_RIS\Lib\huserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroSet UI">
+      <HintPath>..\..\COM\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\LIB_COM\Newtonsoft_13\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCoder">
+      <HintPath>..\..\COM\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BieuMau_ThongKe\FrmGiayNhapVien_V1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BieuMau_ThongKe\FrmGiayNhapVien_V1.designer.cs">
+      <DependentUpon>FrmGiayNhapVien_V1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BieuMau_ThongKe\FrmGiayNhapVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BieuMau_ThongKe\FrmGiayNhapVien.designer.cs">
+      <DependentUpon>FrmGiayNhapVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="CRC16.cs" />
+    <Compile Include="Dichso.cs" />
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Alert.designer.cs">
+      <DependentUpon>Frm_Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCauHinhThongSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCauHinhThongSo.designer.cs">
+      <DependentUpon>FrmCauHinhThongSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain_V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain_V2.Designer.cs">
+      <DependentUpon>FrmMain_V2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportViewer.designer.cs">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmThayDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThayDoiMatKhau.designer.cs">
+      <DependentUpon>FrmThayDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThongBao.Designer.cs">
+      <DependentUpon>FrmThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login_V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login_V2.Designer.cs">
+      <DependentUpon>Frm_Login_V2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NhapThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NhapThuoc.Designer.cs">
+      <DependentUpon>Frm_NhapThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NhapThuoc_Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NhapThuoc_Test.designer.cs">
+      <DependentUpon>Frm_NhapThuoc_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DanhSachPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DanhSachPhieuNhap.Designer.cs">
+      <DependentUpon>Frm_DanhSachPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PhieuDatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PhieuDatHang.Designer.cs">
+      <DependentUpon>Frm_PhieuDatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PhieuNhap.Designer.cs">
+      <DependentUpon>Frm_PhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PhieuXuatBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PhieuXuatBan.Designer.cs">
+      <DependentUpon>Frm_PhieuXuatBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ThanhToan.Designer.cs">
+      <DependentUpon>Frm_ThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\UC_Dashboard_Xuat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Dashboard_Xuat.Designer.cs">
+      <DependentUpon>UC_Dashboard_Xuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Home.Designer.cs">
+      <DependentUpon>UC_Home.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BieuMau_ThongKe\FrmGiayNhapVien_V1.resx">
+      <DependentUpon>FrmGiayNhapVien_V1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BieuMau_ThongKe\FrmGiayNhapVien.resx">
+      <DependentUpon>FrmGiayNhapVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Alert.resx">
+      <DependentUpon>Frm_Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCauHinhThongSo.resx">
+      <DependentUpon>FrmCauHinhThongSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain_V2.resx">
+      <DependentUpon>FrmMain_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThayDoiMatKhau.resx">
+      <DependentUpon>FrmThayDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThongBao.resx">
+      <DependentUpon>FrmThongBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login_V2.resx">
+      <DependentUpon>Frm_Login_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NhapThuoc.resx">
+      <DependentUpon>Frm_NhapThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NhapThuoc_Test.resx">
+      <DependentUpon>Frm_NhapThuoc_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DanhSachPhieuNhap.resx">
+      <DependentUpon>Frm_DanhSachPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PhieuDatHang.resx">
+      <DependentUpon>Frm_PhieuDatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PhieuNhap.resx">
+      <DependentUpon>Frm_PhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PhieuXuatBan.resx">
+      <DependentUpon>Frm_PhieuXuatBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ThanhToan.resx">
+      <DependentUpon>Frm_ThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\UC_Dashboard_Xuat.resx">
+      <DependentUpon>UC_Dashboard_Xuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Home.resx">
+      <DependentUpon>UC_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FUNA1.ico" />
+    <None Include="Resources\Quit.png" />
+    <None Include="Resources\Luu1.JPG" />
+    <None Include="Resources\edit_24.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

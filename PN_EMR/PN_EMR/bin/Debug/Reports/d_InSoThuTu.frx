@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/08/2022 15:14:04" ReportInfo.Modified="11/01/2022 14:29:57" ReportInfo.CreatorVersion="2020.1.0.0" PrintSettings.Duplex="Simplex">
+  <Dictionary>
+    <JsonDataSourceConnection Name="Connection" ConnectionString="rijcmlqnjRLGTaDXVCqdbLkUSuRpzxLgHldZY8VKXOoQEfCG6iLbxi7i8ksyc8W2l2Xyy5P5p7fk6rtQORo7drxwSy2L7PQ1v+k85KRUsiowI/e7B8TQlzWpRkM0vZfJNI373RpLppNbkbYhLsEl/IpWAn17Hz40Czks8ryt7WK3+F/kQ529W0EqJNlZUBltUCkzcocVOjsWejJvSf6UgHCWPPxNp65FQPCPwduLsXJbVe/hSeLrje9VZiibliUfrKN9sKrlTgtHQSYqcH3mFSe5jOzKYJx25EIAxk8vhKtFylhe2q8K+ELPXD0hiUzSGu0lyMU2qVZDF4AVAI9NnFp6o9JNxUjdATZ0+OCRBP8CiyHlZedZS7tWk23xZ+4OjLMYvg3qDCcjyCXDy+VUEo2fUMErKbtiJd0SXq3ZRK+nsg3BeZLjTYopKHNtxhC6qP2RQJ23pTT6isTJ2ZSLX7Jg1RGr64yxY0hBxGzegS2uvSOuy8tNp9xCUaNbCP1JllnqlkoasbTclpLwz2Yo9sqmV7+jnD5BzJdqCp13SdCxjO2m2/8mX3t4eUbxZMbf+iJunnfNa39Z5KdBPZhUsNmbmGiaBSgLYfHtTH1gH37sQ+Q4kfN0T3jnhRhLsY7LzfTJX4n9fKFmTu+6uTlXzF24Z2J6beNfcr2vmTs7ixow1sZjgpvwYfYCH5gBTpo7AW/CFNcvjnanBzDlV4WLqo7S71JcuWJBt0G9aP9jxImrk+PNM/uY67g8UqhZsh2aHGWpXyeftsYqH23bGs0iVDuwleJG0zRyluJ+QR1MpBEzdGiE4L1aBRw6PCzJm8B6AEflXENTnYPMr91MCDNbgJJpVYjZyzJD3/9XeNC4eX7Thg3o+fqFQmJO5rSCjfj4R4acMB/1rwGm007SZyoDIXrnLbKNHp0AfikrcQFBDJrcD0GsdXeTonh9K2CjcS3wztdpQ9/QlfAxYvjm4hatSbfT9ASu95UMRUX+RGjLpIGe4lQpzN6tiHTTBiq7IFmPC+EYEjaLkdwxJujTB21NABOqWFU2z7Bmmvotnmg/UsDHfuFXAF1WWkVZ7I5xTYzCfJy439Q4Rxllw2kE5jsaP8C9LJMUXt7jutuK82vRrYV2L5a0XQLgjdTQNkPOLD70Pfnxti6RN3gr9ahQSR6I9OeIxhnQH0wFNukhsrLapbt44IioCM6LTSZsPL5Mc1z1DYjMETS8AHp+g+oxDURINZ3AClJ8ENh9zhLSn2UlHI1I0uE1SeUiH2oaBN9xIP9+kklKOBzpADOtUH5/9zEZACGvVgdIA==">
+      <JsonTableDataSource Name="JSON" DataType="FastReport.Data.JsonConnection.JsonParser.JsonArray" Enabled="true" TableName="JSON">
+        <Column Name="index" DataType="System.Int32"/>
+        <Column Name="item" DataType="FastReport.JsonBase">
+          <Column Name="thanhtoan" DataType="FastReport.JsonBase">
+            <Column Name="diachi" DataType="System.String"/>
+            <Column Name="sothutu" DataType="System.String"/>
+            <Column Name="tienchu" DataType="System.String"/>
+            <Column Name="doituong" DataType="System.String"/>
+            <Column Name="tongtien" DataType="System.Double"/>
+            <Column Name="phongkham" DataType="System.String"/>
+            <Column Name="mabenhnhan" DataType="System.String"/>
+            <Column Name="noidungthu" DataType="System.String"/>
+            <Column Name="maphongkham" DataType="System.String"/>
+            <Column Name="mathanhtoan" DataType="System.Double"/>
+            <Column Name="hotenbenhnhan" DataType="System.String"/>
+            <Column Name="ngaythanhtoan" DataType="System.Double"/>
+            <Column Name="maxacnhandienthoai" DataType="System.String"/>
+          </Column>
+        </Column>
+        <Column Name="array" DataType="FastReport.JsonBase"/>
+      </JsonTableDataSource>
+    </JsonDataSourceConnection>
+    <Parameter Name="Parameter" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="80.1" PaperHeight="120.1" LeftMargin="0.5" TopMargin="1" RightMargin="1.2" BottomMargin="1" FirstPageSource="15" OtherPagesSource="15" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="296.35" Height="396.9">
+      <LineObject Name="Line1" Left="9.45" Top="28.35" Width="264.6" Border.Width="1.5"/>
+      <TextObject Name="txttenkythuat" Left="9.45" Top="245.7" Width="255.15" Height="122.85" CanGrow="true" Text="THANH TOÁN THÀNH CÔNG &#13;&#10;Mời Người bệnh đến quầy Đăng ký, Ô Ưu tiên để nhận Hóa đơn điện tử và hoàn tất hồ sơ vào phòng khám" HorzAlign="Center" VertAlign="Center" Font="Arial, 13pt, style=Bold"/>
+      <TextObject Name="Text2" Left="9.45" Top="217.35" Width="264.6" Height="28.35" Text="Ngày khám: [Substring(ToString([JSON.item.thanhtoan.ngaythanhtoan]),6,2)]/[Substring(ToString([JSON.item.thanhtoan.ngaythanhtoan]),4,2)]/[Substring(ToString([JSON.item.thanhtoan.ngaythanhtoan]),0,4)] &#13;&#10;" HorzAlign="Center" VertAlign="Center" WordWrap="false" Font="Arial, 11pt, style=Bold" Trimming="EllipsisCharacter">
+        <Formats>
+          <GeneralFormat/>
+          <GeneralFormat/>
+        </Formats>
+      </TextObject>
+      <TextObject Name="Text48" Left="9.45" Width="264.6" Height="18.9" Text="BỆNH VIỆN MẮT" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="txtsothutu" Left="18.9" Top="274.05" Width="207.9" Height="47.25" Visible="false" Text="123" HorzAlign="Center" VertAlign="Center" Font="Arial, 36pt, style=Bold"/>
+      <TextObject Name="Text3" Left="18.9" Top="292.95" Width="207.9" Height="37.8" Visible="false" Text="[UpperCase([JSON.item.thanhtoan.phongkham])]" HorzAlign="Center" VertAlign="Center" Font="Arial, 13pt, style=Bold"/>
+      <BarcodeObject Name="Barcode1" Left="66.15" Top="37.8" Width="148" Height="148" Text="[JSON.item.thanhtoan.mabenhnhan]" ShowText="false" AllowExpressions="true" Barcode="QR Code" Barcode.ErrorCorrection="L" Barcode.Encoding="UTF8" Barcode.QuietZone="true"/>
+      <TextObject Name="Text1" Left="9.45" Top="189" Width="264.6" Height="28.35" Text="[JSON.item.thanhtoan.hotenbenhnhan]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text4" Left="9.45" Top="368.55" Width="255.15" Height="18.9" Text="[Date]" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 10pt, style=Bold"/>
+    </ReportTitleBand>
+  </ReportPage>
+</Report>

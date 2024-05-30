@@ -1,0 +1,22 @@
+[
+  {
+    "maicd": "J15",
+	"tenchandoan": "Viêm Phổi",
+	"hienthi" : 1
+  },
+  {
+    "maicd": "K29",
+	"tenchandoan": "Dạ Dày",
+	"hienthi" : 1
+  },
+  {
+   "maicd": "L01",
+	"tenchandoan": "Nội Tổng Quát",
+	"hienthi" : 1
+  },
+  {
+    "maicd": "A00",
+	"tenchandoan": "tả",
+	"hienthi" : 1
+  }
+]

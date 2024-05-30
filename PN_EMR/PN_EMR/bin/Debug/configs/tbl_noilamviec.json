@@ -1,0 +1,12 @@
+[
+  {
+    "noilamviec_id": 1,
+	"tentat":"BVND1",
+    "tennoilamviec": "Bệnh Viện ND 1"
+  },
+  {
+    "noilamviec_id": 2,
+	"tentat":"BVND2",
+    "tennoilamviec": "Bệnh Viện ND 2"
+  }
+]

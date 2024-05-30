@@ -1,0 +1,25 @@
+{
+  "benhnhan": {
+	"mathanhtoan": "",
+	"sodienthoai": "0984819161"
+	"mabenhnhan": "1212122/22",
+	"hotenbenhnhan": "Nguyễn Thị Kiều Phương",
+    "diachi": "123/21 Trần Văn Ngân, Tp.Hồ chí minh",
+	"tienthanhtoan": 170000,    
+    "tienchu": "Một trăm bảy mười nghìn đồng",
+	"noidungthu": "NTK_PHUONG Thu tiền khám bệnh",
+    "doituong": "Tái khám",
+    "sothutu": "01",
+    "phongkham": "Phòng khám mắt 1",
+	"ngaythanhtoan": 20220808    
+  }
+}
+
+
+/*
+"Đối tượng: {Tái khám; Khám mới}"
+"Khám mới : cho biết số thứ tự, và phòng khám sẽ khám"
+"Tái khám : cho biết phòng khám của bệnh nhân đã khám lần trước và số thứ tự hiện tại ở phòng khám"
+*/
+
+  

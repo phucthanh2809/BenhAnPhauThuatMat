@@ -1,0 +1,22 @@
+[
+  {
+    "khoaphong_id": 1,
+	"tentat":"NTQ",
+    "tenkhoaphong": "Nội Tổng Quát"
+  },
+  {
+    "khoaphong_id": 2,
+	"tentat":"NTQ",
+    "tenkhoaphong": "Ngoại Tổng Quát"
+  },
+  {
+    "khoaphong_id": 3,
+	"tentat":"KB",
+    "tenkhoaphong": "Khám Bệnh"
+  },
+  {
+    "khoaphong_id": 4,
+	"tentat":"CDHA",
+    "tenkhoaphong": "Chẩn Đoán Hình Ảnh"
+  }
+]

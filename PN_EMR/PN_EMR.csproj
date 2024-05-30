@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{367948BC-E1C2-4CD0-BD51-42187EA66416}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PN_EMR</RootNamespace>
+    <AssemblyName>PN_EMR</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastReport">
+      <HintPath>..\..\..\PN_RIS\Lib\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="hdataLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\COM\hdataLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="hultiLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\COM\hultiLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="huserControl">
+      <HintPath>..\..\..\PN_RIS\Lib\huserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\PN_RIS\PS_RIS_APP\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmBenhAnMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBenhAnMat.Designer.cs">
+      <DependentUpon>frmBenhAnMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBenhAnMat2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBenhAnMat2.Designer.cs">
+      <DependentUpon>frmBenhAnMat2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBenhAnMat3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBenhAnMat3.Designer.cs">
+      <DependentUpon>frmBenhAnMat3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBenhAnMat4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBenhAnMat4.Designer.cs">
+      <DependentUpon>frmBenhAnMat4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBenhAn_KhucXa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBenhAn_KhucXa.Designer.cs">
+      <DependentUpon>frmBenhAn_KhucXa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGoiSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGoiSo.Designer.cs">
+      <DependentUpon>FrmGoiSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmThayDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThayDoiMatKhau.designer.cs">
+      <DependentUpon>FrmThayDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVatTu_Femtolasik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVatTu_Femtolasik.Designer.cs">
+      <DependentUpon>frmVatTu_Femtolasik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBenhAnMat.resx">
+      <DependentUpon>frmBenhAnMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBenhAnMat2.resx">
+      <DependentUpon>frmBenhAnMat2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBenhAnMat3.resx">
+      <DependentUpon>frmBenhAnMat3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBenhAnMat4.resx">
+      <DependentUpon>frmBenhAnMat4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBenhAn_KhucXa.resx">
+      <DependentUpon>frmBenhAn_KhucXa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGoiSo.resx">
+      <DependentUpon>FrmGoiSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThayDoiMatKhau.resx">
+      <DependentUpon>FrmThayDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVatTu_Femtolasik.resx">
+      <DependentUpon>frmVatTu_Femtolasik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

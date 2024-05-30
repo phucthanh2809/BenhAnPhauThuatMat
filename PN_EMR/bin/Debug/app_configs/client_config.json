@@ -1,0 +1,37 @@
+{
+	"CORE_SERVICE": 
+	{		
+		"url1": "http://115.74.203.12:8282/pn_coreservice",
+		"url2": "http://192.168.200.189:8282/pn_coreservice",		
+		"url3": "http://192.168.200.188:8282/pn_coreservice",
+		"url4": "http://192.168.200.187:8282/pn_coreservice"
+	},
+	"SQL_SERVICE":
+	{    		
+		"url1": "http://115.74.203.12:8282/pn_sqlservice",
+		"url2": "http://192.168.200.189:8282/pn_sqlservice",
+		"url3": "http://192.168.200.188:8282/pn_sqlservice",
+		"url4": "http://192.168.200.163:8282/pn_sqlservice"
+	},
+	"TCBV_SERVICE":
+	{    
+		"url1": "http://192.168.200.189:8686/pn_tcbv", 
+		"url2": "http://115.74.203.12:8686/pn_tcbv", 
+		"url3": "http://192.168.200.188:8383/pn_taichinhbenhvien",
+		"url4": "http://192.168.200.163:8383/pn_taichinhbenhvien"
+	},
+	"HIS_SERVICE":
+	{    
+		"url1": "http://115.74.203.12:8484/nd1_his", 
+		"url2": "http://192.168.200.189:8484/nd1_his", 
+		"url3": "http://192.168.200.187:8484/nd1_his",
+		"url4": "http://192.168.200.163:8484/nd1_his"
+	},
+	"WREPORT": 
+	{
+		"appGenReport": "C:\\appgenwreport\\Release\\PN_GenWreport_NF.exe",
+		"uploadFolder": "{PN_ROOT_FOLDER}\\WReport\\Templates\\{khoaphong}\\{hinhthucthau}",
+		"reportFolder": "{PN_ROOT_FOLDER}\\WReport\\DataFiles\\{khoaphong}\\{yyyy}\\{ms_code}"
+	}
+	
+}

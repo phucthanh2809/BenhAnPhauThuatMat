@@ -1,0 +1,73 @@
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe.config
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\bin\Debug\PN_EMR.pdb
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\bin\Debug\Newtonsoft.Json.dll
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\bin\Debug\FastReport.Compat.dll
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.AssemblyReference.cache
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.Properties.Resources.resources
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.GenerateResource.cache
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CoreCompileInputs.cache
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CopyComplete
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.exe
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.pdb
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmLogin.resources
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmMain.resources
+D:\BENHVIEN\ACONGTY\PhuongNam\SOURCE\PN_EMR\PN_EMR\obj\Debug\PN_EMR.FrmThayDoiMatKhau.resources
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe.config
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\bin\Debug\PN_EMR.pdb
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\bin\Debug\Newtonsoft.Json.dll
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\bin\Debug\FastReport.Compat.dll
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.AssemblyReference.cache
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.SuggestedBindingRedirects.cache
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmLogin.resources
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmMain.resources
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.FrmThayDoiMatKhau.resources
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.Properties.Resources.resources
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.GenerateResource.cache
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CoreCompileInputs.cache
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CopyComplete
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.exe
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.pdb
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.FrmGoiSo.resources
+D:\DangHung_Dev\2021\SoftwareDev\Duc\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmBenhAn_KhucXa.resources
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe.config
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\bin\Debug\PN_EMR.pdb
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\bin\Debug\FastReport.Compat.dll
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.AssemblyReference.cache
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmBenhAn_KhucXa.resources
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.FrmGoiSo.resources
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmLogin.resources
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmMain.resources
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.FrmThayDoiMatKhau.resources
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.Properties.Resources.resources
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.GenerateResource.cache
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CopyComplete
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.exe
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.pdb
+C:\Users\Win 10\Downloads\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmVatTu_Femtolasik.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe.config
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\bin\Debug\PN_EMR.exe
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\bin\Debug\PN_EMR.pdb
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\bin\Debug\Newtonsoft.Json.dll
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\bin\Debug\FastReport.Compat.dll
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.AssemblyReference.cache
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.SuggestedBindingRedirects.cache
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.exe.config
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmBenhAn_KhucXa.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.FrmGoiSo.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmLogin.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmMain.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.FrmThayDoiMatKhau.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmVatTu_Femtolasik.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.Properties.Resources.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.GenerateResource.cache
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CoreCompileInputs.cache
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.csproj.CopyComplete
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.exe
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.pdb
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmBenhAnMat.resources
+D:\Thực tập - Bệnh viện\PN_EMR\PN_EMR\PN_EMR\obj\Debug\PN_EMR.frmBenhAnMat2.resources
